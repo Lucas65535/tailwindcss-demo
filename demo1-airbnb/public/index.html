@@ -57,12 +57,55 @@
             </p>
             <a
               href="#"
-              class="transition bg-transparent px-10 py-3 rounded font-bold hover:bg-gray-800 block w-full text-center text-white border-2 border-white"
+              class="transition bg-transparent px-10 py-3 rounded font-bold hover:bg-gray-300 block w-full text-center text-white hover:text-gray-800 border-2 border-white"
               >Host</a
             >
           </div>
         </div>
       </div>
     </header>
+
+    <div class="max-w-5xl mx-auto lg:py-16 py-12 lg:px-0 px-4">
+      <h3 class="font-bold bold text-2xl mb-4 leading-none">
+        Book unique homes and experiences.
+      </h3>
+      <form action="#" class="lg:mb-16 mb-10">
+        <div class="flex items-start justify-start flex-wrap">
+          <div class="lg:w-1/3 w-full lg:pr-2 mb-4 lg:mb-0">
+            <label for="where" class="label">Where</label>
+            <input
+              type="text"
+              class="input"
+              id="where"
+              placeholder="Anywhere"
+            />
+          </div>
+          <div class="lg:w-1/3 w-full lg:px-2 mb-4 lg:mb-0">
+            <label for="checkin_checkout" class="label"
+              >check in - check Out</label
+            >
+            <input
+              type="text"
+              class="input"
+              id="checkin_checkout"
+              placeholder="yyyy/mm/dd - yyyy/mm/dd"
+            />
+          </div>
+          <div class="lg:w-1/3 w-full lg:pl-2">
+            <label for="guests" class="label">Guests </label>
+            <div class="relative">
+              <select id="guests" class="input select">
+                <option value="1">1 guests</option>
+                <option value="2">2 guests</option>
+                <option value="3">3 guests</option>
+              </select>
+              <div
+                class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
