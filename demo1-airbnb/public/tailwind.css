@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .sr-only {
   position: absolute !important; /* Outside the DOM flow */
   height: 1px; width: 1px; /* Nearly collapsed */
@@ -10,9 +11,6 @@
   clip: rect(1px, 1px, 1px, 1px); /* All other browsers */
 }
 
-.transition {
-  transition: ease .9s;
-}
 
 .label {
   @apply uppercase tracking-wide font-semibold text-xs text-gray-900 mb-2 block;
@@ -27,19 +25,18 @@
 }
 
 .input:focus {
-  @apply shadow outline-none border-gray-400 transition;
-  
-  box-shadow: 0 0 0 0.2rem theme('color.gray.200');
+  @apply shadow outline-none border-gray-400 duration-200 ease-linear;
+
+  box-shadow: 0 0 0 0.2rem theme("colors.gray.200");
   background-clip: padding-box;
 }
 
 .input.select {
-  @apply appearance-none bg-white w-full; 
+   @apply appearance-none bg-white w-full;
 }
 
-
-.text-cyan { 
-  color: #008F94;
+.text-cyan {
+  color: #008F94
 }
 
 .bg-cyan {
