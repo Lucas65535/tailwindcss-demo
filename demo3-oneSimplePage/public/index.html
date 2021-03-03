@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>PageDemo3</title>
+  </head>
+  <body>
+    <nav
+      role="navigation"
+      class="flex justify-between items-center h-16 bg-gradient-to-r from-pink-700 to-pink-800 text-white relative"
+    >
+      <a href="#" class="pl-6"
+        ><div>
+          <svg
+            class="w-8 h-8"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+            ></path>
+          </svg></div
+      ></a>
+
+      <div class="px-4 cursor-pointer md:hidden" id="bars">
+        <svg
+          class="w-8 h-8"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          ></path>
+        </svg>
+      </div>
+      <div class="hidden md:block" id="menu">
+        <a href="index.html" class="p-4">Home</a>
+        <a href="about.html" class="p-4">About</a>
+        <a href="contact.html" class="p-4">Contact</a>
+      </div>
+    </nav>
+    <!-- hero sections  -->
+    <div
+      class="bg-no-repeat h-screen bg-center bg-cover center"
+      style="background-image: url('./images/img.jpg')"
+    >
+      <div class="text-center font-bold">
+        <h1
+          class="lg:text-9xl sm:text-6xl text-4xl mb-10 text-pink-200 hover:text-white duration-300"
+        >
+          Choose Your Style
+        </h1>
+        <a
+          href="#"
+          class="text-white text-xl center transform hover:scale-110 duration-300"
+          >Explore
+          <div>
+            <svg
+              class="w-6 h-6 ml-3"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M13 5l7 7-7 7M5 5l7 7-7 7"
+              ></path>
+            </svg></div
+        ></a>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
