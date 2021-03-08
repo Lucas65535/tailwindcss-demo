@@ -8,15 +8,23 @@
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
   </head>
   <body class="antialiased text-gray-600">
-    <section>
+    <div class="absolute w-full min-h-screen">
+      <div
+        class="absolute top-0 w-full h-1/2 bg-cover bg-bottom"
+        style="
+          background-image: url('https://images.unsplash.com/photo-1477777404980-710a373f2d7e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80');
+        "
+      ></div>
+    </div>
+    <section class="flex justify-center items-center min-h-screen">
       <div class="relative">
         <div
           class="absolute z-0 inset-0 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 shadow-lg transform -shew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-md"
         ></div>
         <div
-          class="relative md:flex z-10 p-12 bg-gray-100 rounded-md shadow-md"
+          class="relative md:flex space-x-12 z-10 p-12 max-w-4xl bg-gray-100 rounded-md shadow-md"
         >
-          <div class="flex flex-col space-y-4 py-4">
+          <div class="flex flex-col space-y-4 justify-between py-4">
             <div>
               <p class="text-lg">Hello I'm a developer.</p>
               <h1 class="text-5xl font-bold font-mono text-gray-800">
@@ -33,6 +41,7 @@
               <ion-icon name="logo-github"></ion-icon>
             </div>
           </div>
+
           <img
             src="https://images.unsplash.com/photo-1567186937675-a5131c8a89ea?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1234&q=80"
             alt="#"
