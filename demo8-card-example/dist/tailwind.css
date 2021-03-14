@@ -31142,6 +31142,26 @@ video {
   }
 }
 
+@-webkit-keyframes scroller {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scroller {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
 .animate-none {
   -webkit-animation: none;
           animation: none;
@@ -31165,6 +31185,25 @@ video {
 .animate-bounce {
   -webkit-animation: bounce 1s infinite;
           animation: bounce 1s infinite;
+}
+
+.scroller {
+  -webkit-animation: 15s scroll alternate infinite;
+          animation: 15s scroll alternate infinite;
+}
+
+.scroller:first-child {
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.scroller:nth-child(2) {
+  -webkit-animation-duration: 25s;
+          animation-duration: 25s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 @media (min-width: 640px) {
@@ -183886,4 +183925,5 @@ video {
             animation: bounce 1s infinite;
   }
 }
-  
+
+
