@@ -85,7 +85,7 @@ export default function Home() {
 
       </header>
 
-      {/* section1 */}
+      {/* section1 banner */}
       <section className='py-20'>
         <div className='max-w-5xl mx-auto'>
           <h4 className='text-theme-aquamarine mb-3'>Hi, My name is</h4>
@@ -96,9 +96,94 @@ export default function Home() {
               Lorem ipsum dolor sit amet, elit. Assumenda aut commodi culpa debitis dolores ducimus, ea eos inventore nostrum officia provident voluptatem voluptates. Deleniti, error.
 		      	</p>
           </div>
-          <button className='text-theme-aquamarine border border-2 px-6 py-4 rounded-md'>Get In Touch</button>
+          <button className='text-theme-aquamarine border-2 px-6 py-4 rounded-md'>Get In Touch</button>
         </div>
       </section>
+
+      {/* section2  about */}
+      <section className='py-20'>
+        <div className='max-w-5xl mx-auto px-6 lg:px-0'>
+          <header className='mb-16'>
+            <h3 className='text-2xl font-poppins text-theme-gray-light'>
+              <span className='text-theme-aquamarine mr-3 text-base'>01.</span><span className='font-bold'>About Me.</span></h3>
+          </header>
+          <div className='flex flex-wrap items-center'>
+            <div className='w-full sm:w-1/2 order-last sm:order-first'>
+              <p className='text-theme-gray-deep leading-relaxed mb-3'>
+                Lorem ipsum dolor sit amet, elit. Assumenda aut commodi culpa
+                debitis dolores ducimus, ea eos inventore.
+              </p>
+              <p class="text-theme-gray-deep leading-relaxed mb-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusamus alias at deleniti deserunt dolores dolorum eum incidunt
+                minus molestias pariatur possimus praesentium quae, quos soluta
+                voluptas! Amet atque, cupiditate dolore eveniet fugit illum in
+                nisi quae.
+              </p>
+              <p class="text-theme-gray-deep leading-relaxed mb-3">
+                Lorem, Accusamus alias at
+              <a href="" class="text-theme-aquamarine font-medium"
+                >deleniti deserunt dolores</a
+                >
+              dolorum eum incidunt minus molestias
+              <a href="" class="text-theme-aquamarine font-medium"
+                >pariatur possimus praesentium quae</a
+                >, quos soluta voluptas! Amet atque
+              </p>
+              <p class="text-theme-gray-deep leading-relaxed mb-3">
+                Assumenda aut commodi culpa debitis dolores ducimus, ea eos
+                inventore.
+              </p>
+              <div className='text-theme-gray-deep flex flex-wrap'>
+                <p class="w-1/2 sm:w-2/5">
+                  <span class="font-black text-theme-aquamarine text-xs mr-3"
+                  >&gt;</span
+                  >JavaScript
+                </p>
+                <p class="w-1/2 sm:w-2/5">
+                  <span class="font-black text-theme-aquamarine text-xs mr-3"
+                  >&gt;</span
+                  >Tailwind CSS
+              </p>
+                <p class="w-1/2 sm:w-2/5">
+                  <span class="font-black text-theme-aquamarine text-xs mr-3"
+                  >&gt;</span
+                  >Python
+              </p>
+                <p class="w-1/2 sm:w-2/5">
+                  <span class="font-black text-theme-aquamarine text-xs mr-3"
+                  >&gt;</span
+                  >Django
+              </p>
+                <p class="w-1/2 sm:w-2/5">
+                  <span class="font-black text-theme-aquamarine text-xs mr-3"
+                  >&gt;</span
+                  >PHP
+              </p>
+                <p class="w-1/2 sm:w-2/5">
+                  <span class="font-black text-theme-aquamarine text-xs mr-3"
+                  >&gt;</span
+                  >Java
+              </p>
+                <p class="w-1/2 sm:w-2/5">
+                  <span class="font-black text-theme-aquamarine text-xs mr-3"
+                  >&gt;</span
+                  >Laravel
+              </p>
+              </div>
+            </div>
+            {/* picture */}
+            <div className='w-full sm:w-1/2 flex items-center justify-center mb-6 sm:mb-0'>
+              <div className='flex justify-center w-1/2 '>
+                <div className='border-2 border-theme-aquamarine rounded'>
+                  <img className='-mt-6 -ml-6 mb-6 mr-6 w-full h-auto' src='https://images.unsplash.com/photo-1564931768869-c66430fe1162?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80' />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
 
       <footer classNameName={styles.footer}>
       </footer>
