@@ -33,7 +33,7 @@ export default function Home() {
         <div className="max-w-screen-xl mx-auto" x-data="{mobileMenuOpen: false}">
           <div className="flex items-center justify-between pt-5 pb-6 px-5">
             <div>
-              <svg class="w-8 h-8 text-theme-gray-light" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path></svg>
+              <svg className="w-8 h-8 text-theme-gray-light" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path></svg>
             </div>
             <div className="-mr-2 -my-2 md:hidden">
               <button type="button" className="inline-flex items-center justify-center p-2 rounded-md text-theme-aquamarine focus:outline-none transition duration-150 ease-in-out">
@@ -113,60 +113,60 @@ export default function Home() {
                 Lorem ipsum dolor sit amet, elit. Assumenda aut commodi culpa
                 debitis dolores ducimus, ea eos inventore.
               </p>
-              <p class="text-theme-gray-deep leading-relaxed mb-3">
+              <p className="text-theme-gray-deep leading-relaxed mb-3">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Accusamus alias at deleniti deserunt dolores dolorum eum incidunt
                 minus molestias pariatur possimus praesentium quae, quos soluta
                 voluptas! Amet atque, cupiditate dolore eveniet fugit illum in
                 nisi quae.
               </p>
-              <p class="text-theme-gray-deep leading-relaxed mb-3">
+              <p className="text-theme-gray-deep leading-relaxed mb-3">
                 Lorem, Accusamus alias at
-              <a href="" class="text-theme-aquamarine font-medium"
+              <a href="" className="text-theme-aquamarine font-medium"
                 >deleniti deserunt dolores</a
                 >
               dolorum eum incidunt minus molestias
-              <a href="" class="text-theme-aquamarine font-medium"
+              <a href="" className="text-theme-aquamarine font-medium"
                 >pariatur possimus praesentium quae</a
                 >, quos soluta voluptas! Amet atque
               </p>
-              <p class="text-theme-gray-deep leading-relaxed mb-3">
+              <p className="text-theme-gray-deep leading-relaxed mb-3">
                 Assumenda aut commodi culpa debitis dolores ducimus, ea eos
                 inventore.
               </p>
               <div className='text-theme-gray-deep flex flex-wrap'>
-                <p class="w-1/2 sm:w-2/5">
-                  <span class="font-black text-theme-aquamarine text-xs mr-3"
+                <p className="w-1/2 sm:w-2/5">
+                  <span className="font-black text-theme-aquamarine text-xs mr-3"
                   >&gt;</span
                   >JavaScript
                 </p>
-                <p class="w-1/2 sm:w-2/5">
-                  <span class="font-black text-theme-aquamarine text-xs mr-3"
+                <p className="w-1/2 sm:w-2/5">
+                  <span className="font-black text-theme-aquamarine text-xs mr-3"
                   >&gt;</span
                   >Tailwind CSS
               </p>
-                <p class="w-1/2 sm:w-2/5">
-                  <span class="font-black text-theme-aquamarine text-xs mr-3"
+                <p className="w-1/2 sm:w-2/5">
+                  <span className="font-black text-theme-aquamarine text-xs mr-3"
                   >&gt;</span
                   >Python
               </p>
-                <p class="w-1/2 sm:w-2/5">
-                  <span class="font-black text-theme-aquamarine text-xs mr-3"
+                <p className="w-1/2 sm:w-2/5">
+                  <span className="font-black text-theme-aquamarine text-xs mr-3"
                   >&gt;</span
                   >Django
               </p>
-                <p class="w-1/2 sm:w-2/5">
-                  <span class="font-black text-theme-aquamarine text-xs mr-3"
+                <p className="w-1/2 sm:w-2/5">
+                  <span className="font-black text-theme-aquamarine text-xs mr-3"
                   >&gt;</span
                   >PHP
               </p>
-                <p class="w-1/2 sm:w-2/5">
-                  <span class="font-black text-theme-aquamarine text-xs mr-3"
+                <p className="w-1/2 sm:w-2/5">
+                  <span className="font-black text-theme-aquamarine text-xs mr-3"
                   >&gt;</span
                   >Java
               </p>
-                <p class="w-1/2 sm:w-2/5">
-                  <span class="font-black text-theme-aquamarine text-xs mr-3"
+                <p className="w-1/2 sm:w-2/5">
+                  <span className="font-black text-theme-aquamarine text-xs mr-3"
                   >&gt;</span
                   >Laravel
               </p>
@@ -184,6 +184,101 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Where I've Worked */}
+      <section className='py-20'>
+        <div className='max-w-5xl mx-auto px-6 lg:px-0'>
+          <div className='flex justify-center'>
+            <div className='w-full sm:w-2/3'>
+              <header>
+                <h3 className='text-2xl font-poppins text-theme-gray-light'>
+                  <span className='text-base mr-3 text-theme-aquamarine'>02.</span>
+                  <span className='font-bold'>Where I have Worked</span>
+                </h3>
+              </header>
+
+              <div classname="flex flex-wrap">
+                <div className='w-full sm:w-1/6 mb-4 sm:mb-0'>
+                  <div className='flex flex-row sm:flex-col overflow-x-auto'>
+                    <a
+                      href="#"
+                      className="{' border-theme-aquamarine text-theme-aquamarine ' : currentExperience === 'google'}"
+                      className="border-gray-600 text-theme-gray-dark text-theme-gray-deep px-4 py-3 border-b-4 sm:border-b-0 border-l-0 sm:border-l-2 text-xs hover:bg-theme-gray-light hover:bg-opacity-25"
+                    >Google</a>
+                    <a
+                      href="#"
+                      className="{' border-theme-aquamarine text-theme-aquamarine ' : currentExperience === 'microsoft'}"
+                      className="px-4 py-3 border-b-4 sm:border-b-0 border-l-0 sm:border-l-2 border-gray-600 text-xs hover:bg-theme-gray-light hover:bg-opacity-25 text-theme-gray-deep"
+                    >Microsoft</a>
+                    <a
+                      href="#"
+                      className="{' border-theme-aquamarine text-theme-aquamarine ' : currentExperience === 'safaricom'}"
+                      className="px-4 py-3 border-b-4 sm:border-b-0 border-l-0 sm:border-l-2 border-gray-600 text-xs hover:bg-theme-gray-light hover:bg-opacity-25 text-theme-gray-deep"
+                    >Safaricom</a>
+                    <a
+                      href="#"
+                      className="{' border-theme-aquamarine text-theme-aquamarine ' : currentExperience === 'apple'}"
+                      className="px-4 py-3 border-b-4 sm:border-b-0 border-l-0 sm:border-l-2 border-gray-600 text-xs hover:bg-theme-gray-light hover:bg-opacity-25 text-theme-gray-deep"
+                    >Apple</a>
+                    <a
+                      href="#"
+                      className="{' border-theme-aquamarine text-theme-aquamarine ' : currentExperience === 'facebook'}"
+                      className="px-4 py-3 border-b-4 sm:border-b-0 border-l-0 sm:border-l-2 border-gray-600 text-xs hover:bg-theme-gray-light hover:bg-opacity-25 text-theme-gray-deep"
+                    >Facebook</a>
+                    <a
+                      href="#"
+                      className="{' border-theme-aquamarine text-theme-aquamarine ' : currentExperience === 'twitter'}"
+                      className="px-4 py-3 border-b-4 sm:border-b-0 border-l-0 sm:border-l-2 border-gray-600 text-xs hover:bg-theme-gray-light hover:bg-opacity-25 text-theme-gray-deep"
+                    >Twitter</a>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    {/* Experience items Start */}
+                    <div x-show="currentExperience === 'google'">
+                      <header>
+                        <h3 className='text-xl font-poppins text-theme-gray-light font-bold mb-1'>
+                          Software Engineer<span
+                            class="text-theme-aquamarine mx-3"
+                          >@</span
+                          ><a
+                            href="#"
+                            class="text-theme-aquamarine hover:underline"
+                          >Google</a>
+                        </h3>
+                        <p class="text-theme-gray-deep mb-3 text-xs">
+                          Mar 2012 - Jun 2014
+                      </p>
+                      </header>
+                      <div>
+                        <p class="text-theme-gray-deep leading-relaxed mb-3">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Accusamus alias at deleniti deserunt dolores
+                          dolorum.
+                      </p>
+                        <p class="text-theme-gray-deep leading-relaxed mb-3">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Accusamus alias at deleniti deserunt dolores
+                          dolorum.
+                      </p>
+                        <p class="text-theme-gray-deep leading-relaxed mb-3">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Accusamus alias at deleniti deserunt dolores
+                          dolorum.
+                      </p>
+                        <p class="text-theme-gray-deep leading-relaxed mb-3">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit. Accusamus alias at deleniti deserunt dolores
+                          dolorum.
+                      </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <footer classNameName={styles.footer}>
       </footer>
