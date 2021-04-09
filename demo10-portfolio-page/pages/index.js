@@ -807,10 +807,56 @@ export default function Home() {
             </div>
 
           </div>
+
+          <div className="text-center">
+            <a
+              href="#"
+              className="inline-block text-theme-aquamarine px-6 py-4 border border-theme-aquamarine rounded"
+            >More projects</a>
+          </div>
         </div>
       </section>
 
-      <footer classNameName={styles.footer}>
+      {/* contact */}
+      <section className="py-64">
+        <div className="max-w-5xl mx-auto px-6 lg:px-0">
+          <header className="mb-16 text-center">
+            <h4 className="text-theme-aquamarine text-base mb-3">What's Next?</h4>
+            <h3
+              className="text-5xl font-poppins text-theme-gray-light font-extrabold"
+            >
+              Get In Touch
+          </h3>
+          </header>
+          <div className="flex justify-center mb-20">
+            <div className="w-full sm:w-2/3 text-center">
+              <p className="text-theme-gray-deep">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet,
+                architecto corporis dolor doloremque ducimus eaque, earum fuga
+                illum ipsam iusto libero magnam, molestiae non nulla numquam
+                provident quas sapiente sit temporibus vel voluptate voluptatem.
+            </p>
+            </div>
+          </div>
+          <div className="text-center">
+            <a
+              href="#"
+              className="inline-block text-theme-aquamarine px-6 py-4 border border-theme-aquamarine rounded"
+            >Say Hello</a>
+          </div>
+        </div>
+      </section>
+      <footer className='py-8'>
+        <div className="max-w-5xl mx-auto px-6 lg:px-0">
+          <div className="w-full text-center">
+            <a
+              href="#"
+              className="text-xs text-theme-gray-deep hover:text-theme-aquamarine"
+            >
+              Designed and Built by Rai Omido,Thank You!
+          </a>
+          </div>
+        </div>
       </footer>
     </div >
   );
