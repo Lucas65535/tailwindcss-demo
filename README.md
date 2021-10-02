@@ -1,5 +1,13 @@
 # tailwindcss-demo
 
+## Demo1 -- deployed on AWS S3
+
+![demo1](./image/demo-1-1.png)
+![demo1](./image/demo-1-2.png)
+
+[Demo1 on AWS S3](http://tailwindcss-demo-1.s3-website-ap-northeast-1.amazonaws.com)
+
+---
 ## Demo3 -- deployed on AWS S3
 
 ![demo3](./image/demo-3.png)
